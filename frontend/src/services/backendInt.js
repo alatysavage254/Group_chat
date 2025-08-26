@@ -13,7 +13,7 @@ export const registerUser = ( username) =>
     API.post("/auth/register", { username })
 
 export const getRooms = () => API.get("/rooms");
-export const createRoom = (name) = API.post("/rooms", {name} );
+export const createRoom = (name) => API.post("/rooms", {name});
 
 export const getMessages = (roomId) => API.get(`/messages/${roomId}`);
 
