@@ -26,7 +26,7 @@ export default function Login({ setUser}) {
                 />
 
                 <button onClick={handleLogin} className="w-full bg-blue-500 text-white p-2 rounded">
-                    Login
+                    Type 
                 </button>
 
             </div>
